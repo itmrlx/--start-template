@@ -1,0 +1,24 @@
+// sources
+@import 'src/_bootstrap.scss'; // bootstrap
+@import 'src/_wordpress.scss'; // wp classes
+@import 'src/_jquery.fancybox.scss'; // fancybox
+@import 'src/_slick.scss'; // slick slider
+// modules
+
+// utilites
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+.container{
+	min-width: 320px;
+}
+.webber{
+	img{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}

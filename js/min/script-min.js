@@ -1,0 +1,2 @@
+jQuery.fn.getTitle=function(){var e=jQuery("a.fancybox");jQuery.each(e,function(){var e=jQuery(this).children("img").attr("title");jQuery(this).attr("title",e)})};var thumbnails=jQuery("a:has(img)").not(".nolightbox").filter(function(){return/\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr("href"))}),posts=jQuery(".item-images");posts.each(function(){jQuery(this).find(thumbnails).addClass("fancybox").attr("rel","fancybox"+posts.index(this)).getTitle()}),jQuery("a.fancybox").fancybox({helpers:{overlay:{locked:!1}}});
+//# sourceMappingURL=script-min.js.map
