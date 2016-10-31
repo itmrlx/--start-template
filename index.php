@@ -17,5 +17,6 @@
 	<script src="js/dist/jquery.fancybox-dist.js"></script>
 	<script src="js/dist/slick-dist.js"></script>
 	<script src="js/dist/script-dist.js"></script>
+	<!-- created by itmrlx@gmail.com -->
 </body>
 </html>
