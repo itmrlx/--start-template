@@ -1,10 +1,15 @@
 // sources
+// utilities
+// buttons
+
+// ===========================================================
+// sources
+@import 'src/bootstrap/_variables.scss'; // project variables
 @import 'src/_wordpress.scss'; // wp classes
 @import 'src/_jquery.fancybox.scss'; // fancybox
 @import 'src/_slick.scss'; // slick slider
-// modules
 
-// utilites
+// utilities
 .wrapper{
 	width: 100%;
 	max-width: 1920px;
@@ -15,9 +20,15 @@
 	min-width: 320px;
 }
 .webber{
+	margin: 0;
 	img{
-		height: 20px;
+		height: 40px;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+}
+
+// buttons
+.btn{
+	transition: all .3s;
 }
